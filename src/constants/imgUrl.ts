@@ -1,0 +1,1 @@
+export const imgUrl = 'https://media.licdn.com/dms/image/v2/D4D03AQEgCw_yR2zwPg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1732814610958?e=1738195200&v=beta&t=IfUCd5zjqgvQDtzpf8yrBg6YJKZ4cveQD4nPXFsQJho'
