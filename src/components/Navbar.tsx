@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import ThemeToggler from "./ThemeToggler"
 import { Palette } from "lucide-react"
+import { urlBlog } from "../constants/blogUrl"
 
 const Navbar = () => {
   return (
@@ -14,6 +15,7 @@ const Navbar = () => {
             <Link className="hover:text-primary" to={'/'}>Home</Link>
             <Link  className="hover:text-primary" to={'/projects'}>Projects</Link>
             <Link  className="hover:text-primary" to={'/education'}>Education</Link>
+            <Link className="hover:text-primary" to={urlBlog}>Blog</Link>
         </div>
         <div className="flex md:border-l md:pl-3 ml-3 mr-3 justify-center items-center">
             <ThemeToggler />
