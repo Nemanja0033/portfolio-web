@@ -13,7 +13,7 @@ const Main = () => {
             <h1 className="font-bold flex gap-1">#About me</h1>
             <div className="flex justify-center">
             <p id="aboutme" className="text-2xl tracking-wider">
-            Im a <b className="text-primary">certified Frontend Web Developer</b> open to new <b className="text-primary">job opportunities.</b> Ive got experience in creating modern, functional web applications and a strong set of skills for frontend development. I stay on top of the latest technologies and frameworks, and Im confident in working with <b className="text-primary">JavaScript and TypeScript. Im also skilled in React, Next.js, and have some backend experience with Node.js, Express, and databases</b>.
+            I am <b className="text-primary">certified Frontend Web Developer.</b> I am currently looking for new <b className="text-primary">job opportunity.</b> I have experience in creating modern, functional web applications, and a strong set of skills for frontend development. I stay up to date with the latest technologies and frameworks. i'm exceptionally good at working with <b className="text-primary">JavaScript and TypeScript. Im also skilled in React, Next.js,</b> <b>and have some backend experience with Node.js, Express, and databases.</b>
             </p>
             </div>
             <div>
