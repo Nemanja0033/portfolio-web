@@ -16,8 +16,10 @@ const Projects = () => {
           <div className="mb-8">
             <ProjectsCard
             title="Dev Talks Social Network"
-            img="https://i.postimg.cc/k4GMHSWB/Snimak-ekrana-2024-11-30-160402.png"
-            desc="Social Network web app created with React & TypeScript and Firebse"
+            img1="https://i.postimg.cc/k4GMHSWB/Snimak-ekrana-2024-11-30-160402.png"
+            img2="https://i.postimg.cc/yx3zrKJw/devtalks-3.png"
+            img3="https://i.postimg.cc/438dDJdd/devtalks.png"
+            desc="Social Network web app with modern & full responsive design"
             urlDemo="https://dev-talks-nine.vercel.app/"
             urlRepo="https://github.com/Nemanja0033/dev-talks-social-network"
             />
@@ -25,7 +27,9 @@ const Projects = () => {
           <div className="mb-8">
             <ProjectsCard
             title="Shopzzila E-Commerce Web App"
-            img="https://i.postimg.cc/pTfnJ4MP/Snimak-ekrana-2024-11-30-162036.png"
+            img1="https://i.postimg.cc/pTfnJ4MP/Snimak-ekrana-2024-11-30-162036.png"
+            img2="https://i.postimg.cc/G22Bt4NG/shopzzile-2.png"
+            img3="https://i.postimg.cc/pX2dLhFT/shozzila-3.png"
             desc="E-Commerce website, products filtering, cart. . ."
             urlDemo="https://shopzzila-e-commerce.vercel.app/"
             urlRepo="https://github.com/Nemanja0033/shopzzila-e-commerce"
