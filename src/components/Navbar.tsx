@@ -1,22 +1,21 @@
 import { Link } from "react-router-dom"
-import { imgUrl } from "../constants/imgUrl"
 import ThemeToggler from "./ThemeToggler"
+import { Palette } from "lucide-react"
 
 const Navbar = () => {
   return (
     <nav className="w-full h-[60px] flex justify-evenly items-center shadow-md">
         <Link to={'/'}>
             <div className="flex justify-center gap-2 cursor-pointer items-center">
-                <img src={imgUrl} className="w-1/6 rounded-full" alt="" />
-                <span className="text-secondary text-xl font-semibold">Portfoilo</span>
+                <span className="flex gap-2 text-xl font-semibold">Portfoilo<Palette className="text-primary" /></span>
             </div>
         </Link>
-        <div className="flex justify-center gap-8">
+        <div className="flex justify-center md:gap-8 gap-4">
             <Link className="hover:text-primary" to={'/'}>Home</Link>
             <Link  className="hover:text-primary" to={'/projects'}>Projects</Link>
             <Link  className="hover:text-primary" to={'/education'}>Education</Link>
         </div>
-        <div className="flex border-l pl-3 justify-center items-center">
+        <div className="flex md:border-l md:pl-3 ml-3 mr-3 justify-center items-center">
             <ThemeToggler />
         </div>
     </nav>
