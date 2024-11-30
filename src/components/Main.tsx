@@ -8,7 +8,11 @@ const Main = () => {
     useAnimation(mainRef, 2);
 
   return (
-    <div ref={mainRef} className="md:w-1/2 w-[90%] font-semibold flex justify-center border-t justify-self-center mt-32 mb-32">
+    <div ref={mainRef}>
+      <div className="flex justify-self-center mt-32">
+        <button className="btn btn-neutral bg-primary btn-sm"><a download href="/CV.pdf">Download CV</a></button>
+      </div>
+      <div className="md:w-1/2 w-[90%] font-semibold flex justify-center border-t justify-self-center mt-8 mb-32">
        <div className="flex-row mt-6 mb-6">
             <h1 className="font-bold flex gap-1">#About me</h1>
             <div className="flex justify-center">
@@ -19,6 +23,7 @@ const Main = () => {
             <div>
             </div>
        </div>
+    </div>
     </div>
   )
 }

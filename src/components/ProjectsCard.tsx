@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom"
 import { ProjectCardType } from "../types/ProjectCardType"
 import { ArrowRight } from "lucide-react"
-import Carousel from "./Carousel"
 
-const ProjectsCard = ({title, img1, img2, img3, desc, urlDemo, urlRepo}: ProjectCardType) => {
+const ProjectsCard = ({title, img, desc, urlDemo, urlRepo}: ProjectCardType) => {
   return (
     <div className="md:w-1/2 w-full flex justify-self-center justify-center h-auto shadow-md rounded-md">
         <div className="flex-row">
@@ -11,7 +10,7 @@ const ProjectsCard = ({title, img1, img2, img3, desc, urlDemo, urlRepo}: Project
                 <h1 className="text-2xl font-bold text-center">{title}</h1>
             </div>
             <div className="flex justify-center">
-                <Carousel url1={img1} url2={img2} url3={img3} />
+                <img src={img} className="w-full rounded-md" />
             </div>
             <div className="ml-3 mt-3 flex justify-center">
                 <span className="text-md font-semibold">{desc}</span>
