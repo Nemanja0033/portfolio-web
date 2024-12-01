@@ -15,9 +15,9 @@ const Projects = () => {
         <div className="flex-row">
           <div className="mb-8">
             <ProjectsCard
-            title="Dev Talks Social Network"
+            title="Threadsy Social Network"
             img="https://i.postimg.cc/k4GMHSWB/Snimak-ekrana-2024-11-30-160402.png"
-            desc="Social Network web app with modern & full responsive design"
+            desc="Lightweight social Network web app with modern & fully responsive design"
             urlDemo="https://dev-talks-nine.vercel.app/"
             urlRepo="https://github.com/Nemanja0033/dev-talks-social-network"
             />
@@ -26,7 +26,7 @@ const Projects = () => {
             <ProjectsCard
             title="Shopzzila E-Commerce Web App"
             img="https://i.postimg.cc/pTfnJ4MP/Snimak-ekrana-2024-11-30-162036.png"
-            desc="E-Commerce website, products filtering, cart. . ."
+            desc="E-Commerce website, providing products filtering, cart system and responsive design"
             urlDemo="https://shopzzila-e-commerce.vercel.app/"
             urlRepo="https://github.com/Nemanja0033/shopzzila-e-commerce"
             />
