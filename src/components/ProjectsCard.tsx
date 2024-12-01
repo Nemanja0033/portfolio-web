@@ -17,7 +17,7 @@ const ProjectsCard = ({title, img, desc, urlDemo, urlRepo}: ProjectCardType) => 
             </div>
             <div className="flex justify-center gap-2 mt-3 mb-4">
                 <button className="btn bg-primary btn-sm"><Link to={urlDemo}>See Demo</Link><ArrowRight /></button>
-                <button className="btn bg-primary btn-sm"><Link to={urlRepo}>See Code</Link><ArrowRight /></button>
+                <button className="btn bg-primary btn-sm"><Link to={urlRepo}>See Code & Docs</Link><ArrowRight /></button>
             </div>
         </div>
     </div>
