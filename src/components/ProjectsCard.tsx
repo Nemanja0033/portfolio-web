@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom"
 import { ProjectCardType } from "../types/ProjectCardType"
-import { ArrowRight } from "lucide-react"
 
 const ProjectsCard = ({title, img, desc, urlDemo, urlRepo}: ProjectCardType) => {
   return (
