@@ -1,6 +1,7 @@
 import { useRef } from "react"
 import ProjectsCard from "../components/ProjectsCard"
 import { useAnimation } from "../hooks/useAnimate";
+import { Pin } from "lucide-react";
 
 const Projects = () => {
 
@@ -18,6 +19,16 @@ const Projects = () => {
       <div className="flex justify-center mt-5 md:mr-52 mr-0">
         <div className="flex-row">
          <h1 className="text-4xl text-primary font-bold text-center">Projects</h1>
+         <div className="mb-8">
+            <div className="flex justify-center cursor-pointer mt-4"><Pin />Pined</div>
+            <ProjectsCard
+            title="Simia News/Blog Platform (Freelance Customer Project)"
+            img="https://i.postimg.cc/25MyXj9w/Snimak-ekrana-2024-12-30-232233.png"
+            desc="News/Blog platform with advanced features (admin dash, member approval, creating groups, etc...)"
+            urlDemo="https://blog-application-ten-sepia.vercel.app/"
+            urlRepo="https://github.com/Nemanja0033/simia"
+            />
+          </div>
           <div className="mb-8">
             <ProjectsCard
             title="Threadsy Social Network"
