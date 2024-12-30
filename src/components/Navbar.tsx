@@ -15,12 +15,10 @@ const Navbar = () => {
             <Link className="hover:text-primary" to={'/'}>Home</Link>
             <Link  className="hover:text-primary" to={'/projects'}>Projects</Link>
             <Link  className="hover:text-primary" to={'/about'}>About</Link>
-            <div className="md:border-l md:pl-3 pl-0">
+            <div className="md:border-l md:pl-3 pl-0 flex gap-4 items-center">
                 <Link className="hover:text-primary" to={urlBlog}>Blog</Link>
+                <ThemeToggler />
             </div>
-        </div>
-        <div className="flex md:border-l md:pl-3 ml-3 mr-3 justify-center items-center">
-            <ThemeToggler />
         </div>
     </nav>
   )
