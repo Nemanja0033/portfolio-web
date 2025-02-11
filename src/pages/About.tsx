@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const About = () => {
   return (
-    <div className="md:w-1/2 w-[90%] flex justify-self-center justify-center mt-12">
+    <div className="md:w-1/2 w-[90%] flex md:ml-80 ml-10 justify-center mt-12">
       <div className="flex-row">
         {/* Education Section */}
         <div className="mt-6">
