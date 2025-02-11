@@ -1,1 +1,1 @@
-export const urlBlog = 'https://nemanjaantonijevic-blog.vercel.app/blog'
+export const urlBlog = 'https://nemanja-blog.vercel.app/'
