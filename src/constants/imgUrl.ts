@@ -1,1 +1,1 @@
-export const imgUrl = 'https://media.licdn.com/dms/image/v2/D4D03AQHPoJVfxiOI1Q/profile-displayphoto-shrink_200_200/B4DZQ841yVHYAY-/0/1736188321828?e=1741824000&v=beta&t=6fv2OfNiDD9aN-G3bAWqsudymnR5BTrpolHr_Su4dHI'
+export const imgUrl = 'https://media.licdn.com/dms/image/v2/D4D35AQFhvIGkVuZv3g/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1739039343470?e=1739916000&v=beta&t=Xt8Adgljx4eWqzSXoKzg9X6GXPo-9lHG4ldRLiXYeqY'
