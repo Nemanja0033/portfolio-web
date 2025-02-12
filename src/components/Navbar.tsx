@@ -12,10 +12,10 @@ const Navbar = () => {
             <div className="w-full h-screen flex justify-center items-center">
                 <div className="grid grid-cols-1 gap-10 text-2xl">
                 <button onClick={() => setIsOpen(false)}><X /></button>
-                <Link className="hover:text-primary" to={'/'}>Home</Link>
-                <Link  className="hover:text-primary" to={'/projects'}>Projects</Link>
-                <Link  className="hover:text-primary" to={'/about'}>About</Link>
-                <Link className="hover:text-primary" to={urlBlog}>Blog</Link>
+                <Link onClick={() => setIsOpen(false)} className="hover:text-primary" to={'/'}>Home</Link>
+                <Link onClick={() => setIsOpen(false)} className="hover:text-primary" to={'/projects'}>Projects</Link>
+                <Link onClick={() => setIsOpen(false)} className="hover:text-primary" to={'/about'}>About</Link>
+                <Link onClick={() => setIsOpen(false)} className="hover:text-primary" to={urlBlog}>Blog</Link>
                 <ThemeToggler />
                 </div>
             </div>

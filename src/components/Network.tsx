@@ -11,7 +11,7 @@ const Network = () => {
 
   return (
   <main className="flex justify-center">
-    <div ref={ref} className="md:w-1/2 w-full flex flex-col items-center text-center border-t mt-8">
+    <div ref={ref} className="md:w-1/2 w-[90%] flex flex-col items-center text-center border-t mt-8">
         <h1 className="font-bold mb-6">#Network</h1>
       
         <div className="flex flex-col items-center gap-4">
