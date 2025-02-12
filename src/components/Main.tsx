@@ -4,12 +4,11 @@ import { useAnimation } from "../hooks/useAnimate";
 const Main = () => {
 
     const mainRef  = useRef<HTMLDivElement>(null);
-
     useAnimation(mainRef, 2);
 
   return (
     <div ref={mainRef} className="flex flex-col items-center mt-32">
-      <button className="btn btn-neutral bg-primary btn-sm">
+      <button className="btn btn-neutral bg-primary btn-sm animate-bounce">
         <a download href="/CV.pdf">Download CV</a>
       </button>
     
