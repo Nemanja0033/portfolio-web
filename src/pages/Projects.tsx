@@ -30,7 +30,21 @@ const Projects = () => {
         urlDemo="https://blog-application-ten-sepia.vercel.app/"
         urlRepo="https://github.com/Nemanja0033/simia"
       />
+      <ProjectsCard
+        title="Furniture E-commerce"
+        img="https://i.postimg.cc/J4h5bJQ4/Snimak-ekrana-2025-02-28-123618.png"
+        desc="Furniture e-commerce, with modern and clean design with advanced filtering"
+        urlDemo="https://github.com/Nemanja0033/furniture-e-commerce"
+        urlRepo="https://github.com/Nemanja0033/furniture-e-commerce" 
+        />
 
+      <ProjectsCard
+        title="Ortodox Calendar App"
+        img="https://i.postimg.cc/13CTGsFb/Snimak-ekrana-2025-02-28-124006.png"
+        desc="Application for Ortodox Church Holidays, feauturing modern UI, with functional UX"
+        urlDemo="https://github.com/Nemanja0033/ortodox-app"
+        urlRepo="https://github.com/Nemanja0033/ortodox-app"
+        />
       <ProjectsCard
         title="Shopzzila E-Commerce Web App"
         img="https://i.postimg.cc/pTfnJ4MP/Snimak-ekrana-2024-11-30-162036.png"
@@ -38,14 +52,6 @@ const Projects = () => {
         urlDemo="https://shopzzila-e-commerce.vercel.app/"
         urlRepo="https://github.com/Nemanja0033/shopzzila-e-commerce"
       />
-
-      <ProjectsCard
-        title="Ortodox Calendar App"
-        img="https://private-user-images.githubusercontent.com/150238383/410222428-87284d32-ce11-4966-9a49-b302949d1c7d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzkzMDk0ODMsIm5iZiI6MTczOTMwOTE4MywicGF0aCI6Ii8xNTAyMzgzODMvNDEwMjIyNDI4LTg3Mjg0ZDMyLWNlMTEtNDk2Ni05YTQ5LWIzMDI5NDlkMWM3ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIxMVQyMTI2MjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mZDhmN2JjNmYxMWM1YjVjMzNjZDM2OWQzYTY2OTkzMTU2YWRkMWViN2E2OGMzNGU1Nzk5OTNjNWM4MDkzNmVjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.6QbcHH4IB0Xxm6BJOA3PBpZ78EkBjDdxR7dw7ZKgp_k"
-        desc="Application for Ortodox Church Holidays, feauturing modern UI, with functional UX"
-        urlDemo="https://github.com/Nemanja0033/ortodox-app"
-        urlRepo="https://github.com/Nemanja0033/ortodox-app"
-        />
     </div>
   </div>
 </div>
